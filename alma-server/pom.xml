@@ -62,8 +62,8 @@
                             <goal>tag</goal>
                         </goals>
                         <configuration>
-                            <image>CJLMPC/alma-server:${project.version}</image>
-                            <newName>hub.docker.com/CJLMPC/alma-server:${project.version}</newName>
+                            <image>cjlmpc/alma-server:${project.version}</image>
+                            <newName>hub.docker.com/cjlmpc/alma-server:${project.version}</newName>
                         </configuration>
                     </execution>
                 </executions>
@@ -83,8 +83,6 @@
                     </resources>
                 </configuration>
             </plugin>
-
-
 
         </plugins>
     </build>
