@@ -23,6 +23,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <docker.image.prefix>cjlmpc</docker.image.prefix>
     </properties>
 
     <build>
@@ -63,7 +64,6 @@
                         <configuration>
                             <image>CJLMPC/alma-server:${project.version}</image>
                             <newName>hub.docker.com/CJLMPC/alma-server:${project.version}</newName>
-                            <docker.image.prefix>CJLMPC</docker.image.prefix>
                         </configuration>
                     </execution>
                 </executions>
